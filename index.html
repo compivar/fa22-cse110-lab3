@@ -3,7 +3,7 @@
     <head>
         <title>Meeting Minutes Page</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <meta>Documentation of topics discussed during the meeting.</meta> 
+        <meta name="author" content="Minion notetaker">
     </head>
     <body>
         <main>Meeting Notes (main)</main>
@@ -13,7 +13,9 @@
         <h1>Pomodoro Timer First Brainstorm</h1>
         <h2>Brainstorming</h2>
         <h3>October 31, 2022</h3>
-        <section>Section topic: Pomodoro</section>
+        <section>
+            <h2>Section topic: Pomodoro</h2>
+        </section>
         <div>This is a div</div>
         <span>This is a span</span>
         <hr>
@@ -34,9 +36,10 @@
             <li>Read documentation.</li>
         </ol>
         <h2>Agenda</h2>
-        <ul>Get to the conference room on time.</ul>
-        <ul>Introduce ourselves to the group/team.</ul>
-        <ul>Talk project specifications.</ul>
+        <ol><li>Get to the conference room on time.</li>
+            <li>Introduce ourselves to the group/team.</li>
+            <li>Talk project specifications.</li>
+        </ol>
         <nav></nav>
         <p>Everyone should arrive <b>on time</b> for the meeting. This is our <strong>most important project</strong> by far.</p>
         <nav></nav>
@@ -52,14 +55,16 @@
             <li>Who is our targeted audience?</li>
         </ul>
         <h3>Pictures/Video/Audio</h3>
-        <li><img src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg" alt="Job Site"></li>
-        <li><video width="320" height="240" autoplay muted>
-            <source src="video1303085607.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></li>
-        <li><audio controls source src="audio1303085607.m4a" type="audio/m4a" >
-            <a href="audio1303085607.m4a">link to the audio</a>
-        </audio></li>
+        <ul>
+            <li><img src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg" alt="Job Site"></li>
+            <li><video width="320" height="240" autoplay muted>
+                <source src="video1303085607.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video></li>
+            <li><audio controls source src="audio1303085607.m4a" type="audio/m4a" >
+                <a href="audio1303085607.m4a">link to the audio</a>
+            </audio></li>
+        </ul>
         <details>
             <summary>Click to see further details.</summary>
             Further details.
@@ -68,7 +73,7 @@
         <hr>
         <h2>Form</h2>
         <form>
-            <label for="text">Text box:</label>
+            Text box:
             <input type="text"><br>
             <label for="start">Select Date:</label><input type="date" name="trip-start" id="start"><br>
             <label for="box">Task Done</label>
@@ -81,7 +86,7 @@
             <input type="radio" name="season" id="Summer">
             <label for="fall">Summer</label><br>
             </fieldset>
-            <textarea id="input" name="textarea"rows="10" cols="10">This page is sponsored by no one.</textarea><br>
+            <textarea id="input" name="textarea" rows="10" cols="10">This page is sponsored by no one.</textarea><br>
             <label for="selected-color">Choose a color:</label>
             <input list="color-option" id="selected-color" name="selected-color">
             <datalist id="color-option">
