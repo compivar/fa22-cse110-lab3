@@ -3,14 +3,24 @@ body {
     background-color: bisque
 }
 h1 {
+    font-size: 45px;
     color:rgb(27, 158, 151)
 }
 .topic {
     color: red
 }
 .description {
+    font-size: 2vw;
     background-color: rgb(116, 236, 166);
 }
 h2 {
+    font-size: 4vh;
     background-color: rgb(0, 255, 128);
+}
+span {
+    font-size: 0.5em;
+  }
+p {
+    font-size: 0.7cm;
+    line-height: 50pt;
 }
