@@ -9,7 +9,7 @@ h1 {
 h1:active {
     background-color: orange;
 }
-.topic {
+#topic {
     color: red
 }
 .description {
@@ -71,4 +71,28 @@ p {
         border-width: 20px ;
         border-style: dashed;
     }
+  }
+  * {
+    color: darkslateblue;
+  }
+  p[target="space"] {
+    background-color: orange;
+  }
+  ol, ul {
+    background-color:chartreuse;
+  }
+
+  div p {
+    color: aliceblue;
+    background-color: black;
+  }
+
+  ul ~ h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  ul + details {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  div.grid {
+    font-family: 'Bebas Neue', cursive;
   }
