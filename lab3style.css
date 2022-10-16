@@ -15,6 +15,7 @@ h1:active {
 .description {
     font-size: 2vw;
     background-color: rgb(116, 236, 166);
+    font-family: 'Bebas Neue', cursive;
 }
 h2 {
     max-width: 7in;
@@ -25,6 +26,7 @@ h2 {
     border-width: 30px;
     border-color: rgb(103, 223, 253);
     border-radius: 19px;
+    font-family: 'Bebas Neue', cursive;
 }
 h2:hover {
     background-color: yellow;
@@ -36,3 +38,37 @@ p {
     font-size: 0.7cm;
     line-height: 20pt;
 }
+.progress {
+    display: flex;
+    background-color: aqua;
+    width: 8cm;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items:stretch;
+}
+.progress > div {
+    margin: 10px;
+    background-color: aliceblue;
+    line-height: 1cm;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1cm 2cm 1cm;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items:flex-end;
+    align-items: end;
+    width: 3in;
+    background-color: lightgreen;
+    padding: 20px;
+  }
+  .gridSlot {
+    background-color: white;
+  }
+  @media (min-width: 9in) {
+    .block {
+        border-color: rgb(242, 176, 32);
+        border-width: 20px ;
+        border-style: dashed;
+    }
+  }
